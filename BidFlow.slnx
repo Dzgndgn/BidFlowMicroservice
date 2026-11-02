@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Çözüm Öğeleri/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="BidFlow.IdentityService/BidFlow.IdentityService.csproj" />
+</Solution>
