@@ -1,0 +1,6 @@
+@BidFlow.AuctionService_HostAddress = http://localhost:5077
+
+GET {{BidFlow.AuctionService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -10,6 +10,8 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<TokenService>();
 var jwtKey = builder.Configuration["Jwt:Key"];
+Console.WriteLine(
+    $"JWT Key Length: {jwtKey?.Length ?? 0}");
 var issuer = builder.Configuration["Jwt:Issuer"];
 var audience = builder.Configuration["Jwt:Audience"];
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>

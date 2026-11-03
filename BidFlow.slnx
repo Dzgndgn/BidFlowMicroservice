@@ -2,5 +2,6 @@
   <Folder Name="/Çözüm Öğeleri/">
     <File Path=".gitignore" />
   </Folder>
+  <Project Path="BidFlow.AuctionService/BidFlow.AuctionService.csproj" />
   <Project Path="BidFlow.IdentityService/BidFlow.IdentityService.csproj" />
 </Solution>

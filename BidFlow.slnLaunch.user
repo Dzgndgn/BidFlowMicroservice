@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Yeni Profil",
+    "Projects": [
+      {
+        "Path": "BidFlow.AuctionService\\BidFlow.AuctionService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BidFlow.IdentityService\\BidFlow.IdentityService.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
